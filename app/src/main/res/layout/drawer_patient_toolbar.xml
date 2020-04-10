@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/patientToolbarLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFAFF"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/nameToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#3F4079"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <TextView
+            android:id="@+id/myAppName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="QR Code Scanner"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp">
+
+        </TextView>
+    </androidx.appcompat.widget.Toolbar>
+
+</LinearLayout>
